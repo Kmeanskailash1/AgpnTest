@@ -18,8 +18,7 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- progress barstle -->
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+ 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <!-- font wesome stylesheet -->
@@ -32,7 +31,6 @@
 
 
 
-  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
 
 
 </head>
@@ -95,7 +93,7 @@
             AGPN PUBLIC SCHOOL
           </h1>
           <p>
-           With a team of passionate educators and state-of-the-art facilities, we aim to inspire and empower every child to reach their full potential. Join us in shaping a brighter future
+           With a team of passionate educators and state-of-the-art facilities, we aim to inspire and empower every child to reach their full potential. Join us in shaping a brighter future.
           </p>
           <div class="hero_btn-continer">
             <a href="contact.html" class="call_to-btn btn_white-border">
@@ -142,7 +140,7 @@
 
 
   <!-- about section -->
-     <!-- client section -->
+     <!-- principal's message  section -->
   <section class="client_section layout_padding">
     <div class="container">
       <div class="layout_padding2">
@@ -180,78 +178,15 @@
 
 
 
-  <!-- client section -->
-
-  <!-- teacher section -->
-  <section class="teacher_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="main-heading ">
-        Our Teachers
-      </h2>
-      <p class="text-center">
-        Ipsum available, but the majority h
-      </p>
-      <div class="teacher_container layout_padding2">
-        <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top" src="images/teacher-1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Den Mark</h5>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/teacher-2.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Leena jorj</h5>
-            </div>
-
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/teacher-3.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Magi Den</h5>
-
-            </div>
-
-          </div>
-
-          <div class="card">
-            <img class="card-img-top" src="images/teacher-4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">jonson mark</h5>
-
-            </div>
-
-          </div>
-          
-        </div>
-      </div>
+  <!-- principal's message section -->
 
 
-      <div class="d-flex justify-content-center mt-3">
-        <a href="" class="call_to-btn  ">
-
-          <span>
-            See More
-          </span>
-          <img src="images/right-arrow.png" alt="">
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- teacher section -->
-
-  <!-- vehicle section -->
+  <!--  Moment's of Glimpse  section -->
   <section class="vehicle_section layout_padding">
     <div class="container">
       <h2 class="main-heading ">
-        Vehicles Facility
+        Moment's of Glimpse 
       </h2>
-      <p class="text-center">
-        There are many variations of passages of Lorem Ipsum available, but the majority hThere are many variations of
-        passages of Lorem Ipsum available, but the majority h
-      </p>
       <div class="layout_padding-top">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -281,40 +216,26 @@
   </section>
 
 
-  <!-- vehicle section -->
+  <!--  Moment's of Glimpse  section -->
+
   <!-- client section -->
   <section class="client_section layout_padding">
     <div class="container">
-      <h2 class="main-heading ">
-        Our Students Feedback
-      </h2>
-      <p class="text-center">
-        There are many variations of passages of Lorem Ipsum available, but the majority hThere are many variations of
-        passages of Lorem Ipsum available, but the majority h
-      </p>
+      
       <div class="layout_padding2">
         <div class="client_container d-flex flex-column">
           <div class="client_detail d-flex align-items-center">
-            <div class="client_img-box ">
-              <img src="images/student.png" alt="">
-            </div>
+           
             <div class="client_detail-box">
               <h4>
-                Veniam Quis
+                Upcoming Notice
               </h4>
-              <span>
-                (exercitation)
-              </span>
+              
             </div>
           </div>
           <div class="client_text mt-4">
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum."
+              "School will remain close on 19th August on the accounts of Rakshabandhan"
 
 
             </p>
@@ -335,30 +256,27 @@
     <div class="container">
 
       <h2 class="main-heading">
-        Contact Now
+        Enquiry Form
 
       </h2>
-      <p class="text-center">
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-
-      </p>
       <div class="">
         <div class="contact_section-container">
           <div class="row">
             <div class="col-md-6 mx-auto">
               <div class="contact-form">
-                <form action="">
+                <form  id="indexForm">
                   <div>
-                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Name" required id="indexFormName">
                   </div>
                   <div>
-                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Phone Number" required id="indexFormPhone">
+                    <p id="error-message"></p>
                   </div>
                   <div>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email (Optional)" id="indexFormEmail">
                   </div>
                   <div>
-                    <input type="text" placeholder="Message" class="input_message">
+                    <input type="text" placeholder="Message" class="input_message" id="indexFormMsg">
                   </div>
                   <div class="d-flex justify-content-center">
                     <button type="submit" class="btn_on-hover">
@@ -394,7 +312,7 @@
                 Apply for Admission
               </h3>
               <p class="mt-3 mb-4">
-                There are many variations of passages of Lorem Ipsum available, but the majority h
+                Enroll your child at AGPN Public School, Bokaro, and secure their future with top-notch education.
               </p>
               <div class="">
                 <a href="" class="admission_btn btn_on-hover">
@@ -420,17 +338,9 @@
   <!-- landing section -->
   <section class="landing_section layout_padding">
     <div class="container">
-      <h2 class="main-heading">
-        Free Multipurpose Responsive
-
-      </h2>
-      <h2 class="main-heading number_heading">
-        Landing Page 2019
-
-      </h2>
+     
       <p class="landing_detail text-center">
-        There are many variations of passages of Lorem Ipsum available, but the majority There are many variations of
-        passages of Lorem Ipsum available, but the majority h
+        "Every child is a unique gift, and education is the key that unlocks their limitless potential. Invest in their learning, and they will light up the world."
 
       </p>
     </div>
@@ -444,8 +354,8 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      Copyright &copy; 2024 All Rights Reserved By
+      <a href="#">AGPN</a>
     </p>
   </section>
   <!-- footer section -->
@@ -453,32 +363,8 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
-
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
   </script>
-  <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
+  <script src="js/script.js"></script>
   <!-- end google map js -->
 </body>
 
