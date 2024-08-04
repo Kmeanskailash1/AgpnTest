@@ -1,10 +1,10 @@
-// index page js
-document.getElementById('indexForm').addEventListener('submit',function(event){
+//contact.html page
+document.getElementById('contactPageForm').addEventListener('submit',function(event){
     event.preventDefault(); // Prevent the form from submitting
-    const name = document.getElementById("indexFormName");
-    const phone = document.getElementById("indexFormPhone");
-    const email = document.getElementById("indexFormEmail");
-    const msg = document.getElementById("indexFormMsg");
+    const name = document.getElementById("contactFormName");
+    const phone = document.getElementById("contactFormPhone");
+    const email = document.getElementById("contactFormEmail");
+    const msg = document.getElementById("contactFormMessage");
     const errorMessage = document.getElementById('error-message');
      // Regular expression to match exactly 10 digits
      const mobileRegex = /^\d{10}$/;
@@ -29,6 +29,3 @@ document.getElementById('indexForm').addEventListener('submit',function(event){
      }
 
 });
-
-
-
