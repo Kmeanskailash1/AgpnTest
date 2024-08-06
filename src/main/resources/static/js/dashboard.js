@@ -28,7 +28,7 @@
         document.addEventListener('click', resetTimer);
       } else {
         //uncomment below line to start session
-        //window.location.href = 'login.html'; // Redirect to login page if not logged in
+        window.location.href = 'login.html'; // Redirect to login page if not logged in
       }
     });
 
@@ -46,7 +46,8 @@
     dasboardViewContainer.style.display="none";
     dasboardDeleteContainer.style.display="none";
     dasboardFeeContainer.style.display="none";
-
+    document.getElementById('dashboardViewStuRecord').style.display="none";
+    
   });
 
   document.getElementById('dashBoardViewBtn').addEventListener('click', function(){
@@ -76,4 +77,8 @@
     dasboardViewContainer.style.display="none";
     dasboardDeleteContainer.style.display="none";
     dasboardFeeContainer.style.display="block";
+  });
+
+  document.getElementById('dashboardSearchBtn').addEventListener('click', function(){
+    document.getElementById('dashboardViewStuRecord').style.display="flex";
   });
