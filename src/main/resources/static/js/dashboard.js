@@ -27,7 +27,8 @@
         document.addEventListener('keypress', resetTimer);
         document.addEventListener('click', resetTimer);
       } else {
-        window.location.href = 'login.html'; // Redirect to login page if not logged in
+        //uncomment below line to start session
+        //window.location.href = 'login.html'; // Redirect to login page if not logged in
       }
     });
 
