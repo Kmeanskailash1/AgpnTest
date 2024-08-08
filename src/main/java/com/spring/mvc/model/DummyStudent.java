@@ -1,11 +1,11 @@
-package com.spring.mvc;
+package com.spring.mvc.model;
 
-public class Student {
+public class DummyStudent {
 	private Integer sid;
 	private String sname;
 	private String fname;
 	private Double fees;
-	public Student(Integer sid, String sname, String fname, Double fees) {
+	public DummyStudent(Integer sid, String sname, String fname, Double fees) {
 		super();
 		this.sid = sid;
 		this.sname = sname;

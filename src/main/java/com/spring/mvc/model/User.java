@@ -1,4 +1,4 @@
-package com.spring.mvc;
+package com.spring.mvc.model;
 
 public class User {
 	private String user;
