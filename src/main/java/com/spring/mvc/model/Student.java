@@ -1,6 +1,7 @@
 package com.spring.mvc.model;
 
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.SourceType;
@@ -47,8 +48,8 @@ public class Student {
 	
 	private String addedBy;
 	
-	@CreationTimestamp(source = SourceType.DB)
-	private Timestamp createdAt;
-	@UpdateTimestamp(source = SourceType.DB)
-	private Timestamp updatedAt;
+	@CreationTimestamp
+	private LocalDateTime createdAt;
+	@UpdateTimestamp
+	private LocalDateTime updatedAt;
 }

@@ -10,6 +10,6 @@ import com.spring.mvc.model.Student;
 @Repository
 public interface StudentRepository  extends JpaRepository<Student, String>{
 	
-	public List<Student> findByStudentName(String sname);
+	public List<Student> findByStudentNameContainingIgnoreCase(String sname);
 
 }
