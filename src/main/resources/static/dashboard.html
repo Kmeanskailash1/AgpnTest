@@ -103,13 +103,18 @@
                     <div class="container my-4">
                         <div class="row">
                             <div class="col-md-3 my-2"><button type="button" class="btn btn-primary"
-                                    id="dashBoardViewBtn">View Details</button></div>
-                            <div class="col-md-3 my-1"><button type="button" class="btn btn-primary"
-                                    id="dashBoardAddBtn">Add New Record</button></div>
-                            <div class="col-md-3 my-1"><button type="button" class="btn btn-primary"
-                                    id="dashBoardDelBtn">Delete Record</button></div>
-                            <div class="col-md-3 my-1"><button type="button" class="btn btn-primary"
-                                    id="dashBoardFeeBtn">Fee Collect</button></div>
+                                    id="dashBoardAddBtn"
+                                    onclick='window.location.href="screen/dashboardAddStudent.html"'>Add New
+                                    Record</button></div>
+                            <div class="col-md-3 my-2"><button type="button" class="btn btn-primary"
+                                    id="dashBoardViewBtn"
+                                    onclick='window.location.href="screen/dashboardViewStudent.html"'>View
+                                    Details</button></div>
+                            <div class="col-md-3 my-2"><button type="button" class="btn btn-primary px-4"
+                                    id="dashBoardFeeBtn"  onclick='window.location.href="screen/dashboardFeeCollect.html"'>Fee Collect</button></div>
+                            <div class="col-md-3 my-2"><button type="button" class="btn btn-primary"
+                                    id="dashBoardDelBtn" onclick='window.location.href="screen/dashboardDeleteStudent.html"'>Delete Record</button></div>
+
                         </div>
                     </div>
                     <!-- As per selection displaying the respective container-->
@@ -143,7 +148,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2  my-3">
-                                    <button type="button" class="btn btn-outline-primary" id="dashboardSearchBtn">Search</button>
+                                    <button type="button" class="btn btn-outline-primary"
+                                        id="dashboardSearchBtn">Search</button>
                                 </div>
                             </div>
 
@@ -158,9 +164,10 @@
                                     <label for="Registration_Id">Student's Name</label>
                                 </div>
                                 <div class="col-md-3">
-                                    <input type="text" name="" id="" class="form-control" value="Suresh Kumar Saw" readonly>
+                                    <input type="text" name="" id="" class="form-control" value="Suresh Kumar Saw"
+                                        readonly>
                                 </div>
-                    
+
                             </div>
                         </div>
                     </div>

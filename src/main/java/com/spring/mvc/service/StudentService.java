@@ -23,7 +23,7 @@ public class StudentService {
 	}
 
 	public List<Student> getStudentListByName(String sname) {
-		return studentRepo.findByStudentName(sname);
+		return studentRepo.findByStudentNameContainingIgnoreCase(sname);
 	}
 
 	public String addStudent(Student s) {
