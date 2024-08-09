@@ -13,13 +13,13 @@ window.onload  = function(){
 
  function logoutUser() {
    sessionStorage.removeItem('loggedIn');
-   window.location.href = '../../login.html'; // Redirect to login page
+   window.location.href = '../login.html'; // Redirect to login page
  }
 
  function handleLogout() {
    clearTimeout(timeout);
    sessionStorage.removeItem('loggedIn');
-   window.location.href = '../../login.html'; // Redirect to login page
+   window.location.href = '../login.html'; // Redirect to login page
  }
 
  document.addEventListener('DOMContentLoaded', function() {
